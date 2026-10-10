@@ -1,0 +1,3 @@
+# Runtime: Python 3.10+ with tkinter (Tcl/Tk).
+# No third-party pip packages are needed for the game or bundled AI.
+# Optional Windows packaging dependency: PyInstaller.
