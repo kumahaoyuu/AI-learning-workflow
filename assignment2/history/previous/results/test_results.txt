@@ -1,0 +1,26 @@
+test_all_parent_configurations_are_smoothed_and_normalized (test_models.BayesNetworkArithmeticTests.test_all_parent_configurations_are_smoothed_and_normalized) ... ok
+test_cpt_uses_parent_configuration_denominator (test_models.BayesNetworkArithmeticTests.test_cpt_uses_parent_configuration_denominator) ... ok
+test_graph_is_acyclic_with_at_most_two_total_parents (test_models.BayesNetworkArithmeticTests.test_graph_is_acyclic_with_at_most_two_total_parents) ... ok
+test_joint_matches_independent_counting_for_every_class (test_models.BayesNetworkArithmeticTests.test_joint_matches_independent_counting_for_every_class) ... ok
+test_aspect_ratio_and_hole_features (test_models.FeatureTests.test_aspect_ratio_and_hole_features) ... ok
+test_blank_and_full_images_have_known_semantics (test_models.FeatureTests.test_blank_and_full_images_have_known_semantics) ... ok
+test_box_normalization_is_translation_invariant (test_models.FeatureTests.test_box_normalization_is_translation_invariant) ... ok
+test_enclosed_background_detects_ring_and_opening (test_models.FeatureTests.test_enclosed_background_detects_ring_and_opening) ... ok
+test_features_are_batch_independent_integer_states (test_models.FeatureTests.test_features_are_batch_independent_integer_states) ... ok
+test_confused_pairs_aggregate_both_directions (test_models.MetricsTests.test_confused_pairs_aggregate_both_directions) ... ok
+test_metrics_match_hand_computed_example_including_absent_classes (test_models.MetricsTests.test_metrics_match_hand_computed_example_including_absent_classes) ... ok
+test_deskew_reduces_known_synthetic_slant (test_models.NaiveBayesArithmeticTests.test_deskew_reduces_known_synthetic_slant) ... ok
+test_eight_gray_bins_on_known_single_row_input (test_models.NaiveBayesArithmeticTests.test_eight_gray_bins_on_known_single_row_input) ... ok
+test_gray_bin_boundary (test_models.NaiveBayesArithmeticTests.test_gray_bin_boundary) ... ok
+test_known_prior_and_conditional_probability (test_models.NaiveBayesArithmeticTests.test_known_prior_and_conditional_probability) ... ok
+test_likelihood_matches_explicit_categorical_formula (test_models.NaiveBayesArithmeticTests.test_likelihood_matches_explicit_categorical_formula) ... ok
+test_tiny_smoothing_does_not_create_negative_infinity (test_models.NaiveBayesArithmeticTests.test_tiny_smoothing_does_not_create_negative_infinity) ... ok
+test_exact_constructor_signature_and_independent_file_loading (test_models.ProtocolTests.test_exact_constructor_signature_and_independent_file_loading) ... ok
+test_fit_returns_self_prediction_shape_and_probabilities (test_models.ProtocolTests.test_fit_returns_self_prediction_shape_and_probabilities) ... ok
+test_invalid_inputs_and_unfitted_prediction_fail_clearly (test_models.ProtocolTests.test_invalid_inputs_and_unfitted_prediction_fail_clearly) ... ok
+test_training_and_prediction_do_not_modify_inputs_or_parameters (test_models.ProtocolTests.test_training_and_prediction_do_not_modify_inputs_or_parameters) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.299s
+
+OK

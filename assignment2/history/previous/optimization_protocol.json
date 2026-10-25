@@ -1,0 +1,44 @@
+{
+  "seed": 20261019,
+  "validation_samples_per_class": 1000,
+  "selection_metric": "validation macro F1; accuracy as secondary",
+  "data_used_for_selection": "Only the original 60000 MNIST training images and labels",
+  "test_set_already_evaluated_in_initial_work": true,
+  "test_set_use_in_optimization": "Final evaluation only, after configuration is frozen; never rank candidates using test labels",
+  "structure_policy": "One manually specified DAG; no automatic structure search, no edge ranking or learning",
+  "allowed_bn_changes": [
+    "12 interpretable features maximum",
+    "2 to 5 states per feature",
+    "fixed, documented preprocessing",
+    "alpha smoothing"
+  ],
+  "nb_candidate_families": [
+    "Bernoulli thresholds 0/64/128/192",
+    "4 or 8 equal-width gray bins categorical NB",
+    "optional moment-based deskew before the same pixel NB"
+  ],
+  "bn_candidate_families": [
+    "original 3x3 density/aspect/asymmetry baseline",
+    "foreground-bounding-box normalized 3x3 density/aspect/asymmetry",
+    "bounding-box 3x3 density/aspect/two hole summaries"
+  ],
+  "discretization_candidates": [
+    "original fixed density edges",
+    "uniform density edges",
+    "training-only quantiles, with zero separated if needed"
+  ],
+  "alpha_candidates": [
+    0.1,
+    1.0,
+    5.0
+  ],
+  "must_keep": [
+    "model filenames and signatures",
+    "log probability prediction",
+    "all CPT smoothed",
+    "Y root",
+    "no hidden variables",
+    "at most two total parents per feature",
+    "no pretrained models or classifier libraries"
+  ]
+}

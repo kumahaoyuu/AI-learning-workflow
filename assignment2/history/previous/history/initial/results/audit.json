@@ -1,0 +1,85 @@
+{
+  "unit_tests_run": 17,
+  "unit_tests_passed": true,
+  "prediction_rows": 10000,
+  "independently_recomputed_metrics": {
+    "naive_bayes": {
+      "accuracy": 0.8433,
+      "macro_precision": 0.844144385339711,
+      "macro_recall": 0.8408897238784588,
+      "macro_f1": 0.8416128224074602
+    },
+    "bayes_net": {
+      "accuracy": 0.5591,
+      "macro_precision": 0.5541952831918308,
+      "macro_recall": 0.553371784557456,
+      "macro_f1": 0.5502081640449196
+    }
+  },
+  "confusion_csvs_match_predictions": true,
+  "source_hashes_match_experiment": true,
+  "course_loader_byte_identical": true,
+  "core_model_imports": {
+    "naive_bayes.py": [
+      "numpy"
+    ],
+    "bayes_net.py": [
+      "numpy"
+    ]
+  },
+  "final_predictions_equal_initial_baseline": true,
+  "raw_mnist_data_in_delivery": false,
+  "figures": {
+    "bayes_network.png": {
+      "pixels": [
+        4800,
+        1260
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    "confusion_bayes_net.png": {
+      "pixels": [
+        1890,
+        1650
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    "confusion_naive_bayes.png": {
+      "pixels": [
+        1890,
+        1650
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    "errors_bayes_net.png": {
+      "pixels": [
+        2160,
+        1560
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    "errors_naive_bayes.png": {
+      "pixels": [
+        2160,
+        1560
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    }
+  },
+  "visual_review": "All five PNG figures inspected: labels, axes, DAG edges, sample indices, layout and contrast."
+}

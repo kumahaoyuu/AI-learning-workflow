@@ -1,0 +1,33 @@
+{
+  "seed": 20261019,
+  "train_samples": 50000,
+  "validation_samples": 10000,
+  "candidate_count": 208,
+  "nb_candidates": 48,
+  "bn_candidates": 160,
+  "graph": [
+    null,
+    0,
+    1,
+    null,
+    3,
+    4,
+    null,
+    6,
+    7,
+    null,
+    9,
+    10
+  ],
+  "selection": "validation Macro F1, accuracy secondary",
+  "test_files_read_for_selection": false,
+  "automatic_structure_learning": false,
+  "no_hidden_variables": true,
+  "max_bn_features": 12,
+  "bn_states_per_feature": 5,
+  "preserved_version": "history/previous/",
+  "protocol_sources": [
+    "experiments/protocol_initial.json",
+    "experiments/protocol_shape_round.json"
+  ]
+}

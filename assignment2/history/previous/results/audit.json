@@ -1,0 +1,87 @@
+{
+  "unit_tests_run": 21,
+  "unit_tests_passed": true,
+  "prediction_rows": 10000,
+  "independently_recomputed_metrics": {
+    "naive_bayes": {
+      "accuracy": 0.8775,
+      "macro_precision": 0.8773075514316211,
+      "macro_recall": 0.8757555120746643,
+      "macro_f1": 0.8761758368940988
+    },
+    "bayes_net": {
+      "accuracy": 0.8516,
+      "macro_precision": 0.8513830217271796,
+      "macro_recall": 0.8489881224701679,
+      "macro_f1": 0.8491669660867075
+    }
+  },
+  "confusion_csvs_match_predictions": true,
+  "source_hashes_match_experiment": true,
+  "frozen_core_sources_match": true,
+  "initial_snapshot_hashes_match": true,
+  "initial_report_sha256": "76e44351555726ef04c2f17b4ae8dda5d1b9982f22fae41560982fef56e8387a",
+  "course_loader_byte_identical": true,
+  "core_model_imports": {
+    "naive_bayes.py": [
+      "numpy"
+    ],
+    "bayes_net.py": [
+      "numpy"
+    ]
+  },
+  "training_only_selection_candidates": 54,
+  "raw_mnist_data_in_delivery": false,
+  "figures": {
+    "bayes_network.png": {
+      "pixels": [
+        4800,
+        1260
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    "confusion_bayes_net.png": {
+      "pixels": [
+        1890,
+        1650
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    "confusion_naive_bayes.png": {
+      "pixels": [
+        1890,
+        1650
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    "errors_bayes_net.png": {
+      "pixels": [
+        2160,
+        1560
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    "errors_naive_bayes.png": {
+      "pixels": [
+        2160,
+        1560
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    }
+  }
+}

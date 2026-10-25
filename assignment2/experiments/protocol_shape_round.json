@@ -1,0 +1,37 @@
+{
+  "declared_before_round": true,
+  "graph": [
+    null,
+    0,
+    1,
+    null,
+    3,
+    4,
+    null,
+    6,
+    7,
+    null,
+    9,
+    10
+  ],
+  "families": [
+    "4x3 or 3x4 regional densities",
+    "3x3 densities plus aspect/holes",
+    "four quadrant density and centroids",
+    "four quadrant density and central moments",
+    "three strips left/right density and correlation plus aspect/holes"
+  ],
+  "geometry": [
+    "square box 24",
+    "square box 24 on 28 canvas, mass-centered"
+  ],
+  "deskew": [
+    false,
+    true
+  ],
+  "binning": [
+    "fixed semantic thresholds",
+    "training-only five-state quantiles"
+  ],
+  "test_files_read": false
+}

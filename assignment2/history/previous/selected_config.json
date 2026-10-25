@@ -1,0 +1,131 @@
+{
+  "frozen_at_shanghai": "2026-10-19T18:38:57.258664+08:00",
+  "selected": {
+    "naive_bayes": {
+      "model": "naive_bayes",
+      "deskew": true,
+      "n_states": 8,
+      "threshold": null,
+      "alpha": 0.1,
+      "accuracy": 0.8703,
+      "macro_f1": 0.8703500061261676
+    },
+    "bayes_net": {
+      "model": "bayes_net",
+      "geometry": "normalized",
+      "summaries": "holes",
+      "binning": "uniform",
+      "alpha": 0.1,
+      "edges": [
+        [
+          0.05,
+          0.15,
+          0.3,
+          0.5
+        ],
+        [
+          0.05,
+          0.15,
+          0.3,
+          0.5
+        ],
+        [
+          0.05,
+          0.15,
+          0.3,
+          0.5
+        ],
+        [
+          0.05,
+          0.15,
+          0.3,
+          0.5
+        ],
+        [
+          0.05,
+          0.15,
+          0.3,
+          0.5
+        ],
+        [
+          0.05,
+          0.15,
+          0.3,
+          0.5
+        ],
+        [
+          0.05,
+          0.15,
+          0.3,
+          0.5
+        ],
+        [
+          0.05,
+          0.15,
+          0.3,
+          0.5
+        ],
+        [
+          0.05,
+          0.15,
+          0.3,
+          0.5
+        ],
+        [
+          0.45,
+          0.6,
+          0.75,
+          0.9
+        ],
+        [
+          0.001,
+          0.03,
+          0.1,
+          0.22
+        ],
+        [
+          0.001,
+          0.03,
+          0.1,
+          0.22
+        ]
+      ],
+      "accuracy": 0.8455,
+      "macro_f1": 0.8450305612952935
+    }
+  },
+  "selection_sha256": "1b20e09cf8124079299797ce2a5e91fdc648f79b335129f540c61605dbe5eb7f",
+  "core_source_sha256": {
+    "naive_bayes.py": "bd634ac32a57431c44bcee285fc36eaddfd17aada243e700605eeed75b223507",
+    "bayes_net.py": "d2aac308b2b618159c0f6c92e5d91cb00617d8bc01f69bd1a2cf36e1ed6c85e9"
+  },
+  "constructor_default_alpha": 1.0,
+  "main_explicit_alpha": 0.1,
+  "validation_checks": {
+    "naive_bayes": {
+      "accuracy": 0.8703,
+      "macro_f1": 0.8703500061261676
+    },
+    "bayes_net": {
+      "accuracy": 0.8455,
+      "macro_f1": 0.8450305612952935
+    }
+  },
+  "test_use": "Final test evaluation starts after this file is written; test was already seen in the initial work",
+  "initial_report_sha256": "76e44351555726ef04c2f17b4ae8dda5d1b9982f22fae41560982fef56e8387a",
+  "automatic_structure_learning": false,
+  "manual_feature_parents_zero_based": [
+    null,
+    0,
+    1,
+    null,
+    3,
+    4,
+    null,
+    6,
+    7,
+    null,
+    9,
+    10
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "created_at_shanghai": "2026-10-19T18:22:43.327313+08:00",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "matplotlib": "3.11.2",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "alpha": 1.0,
+  "train_samples": 60000,
+  "test_samples": 10000,
+  "data_sha256": {
+    "train-images-idx3-ubyte.gz": "440fcabf73cc546fa21475e81ea370265605f56be210a4024d2ca8f203523609",
+    "train-labels-idx1-ubyte.gz": "3552534a0a558bbed6aed32b30c495cca23d567ec52cac8be1a0730e8010255c",
+    "t10k-images-idx3-ubyte.gz": "8d422c7b0a1c1c79245a5bcf07fe86e33eeafee792b84584aec276f5a2dbc4e6",
+    "t10k-labels-idx1-ubyte.gz": "f7ae60f92e00ec6debd23a6088c31dbd2371eca3ffa0defaefb259924204aec6"
+  },
+  "data_profile": {
+    "train_shape": [
+      60000,
+      28,
+      28
+    ],
+    "test_shape": [
+      10000,
+      28,
+      28
+    ],
+    "image_dtype": "uint8",
+    "pixel_range": [
+      0,
+      255
+    ],
+    "missing_pixels": 0,
+    "train_class_counts": [
+      5923,
+      6742,
+      5958,
+      6131,
+      5842,
+      5421,
+      5918,
+      6265,
+      5851,
+      5949
+    ],
+    "test_class_counts": [
+      980,
+      1135,
+      1032,
+      1010,
+      982,
+      892,
+      958,
+      1028,
+      974,
+      1009
+    ],
+    "train_feature_state_counts": {
+      "top_left_density": [
+        48688,
+        8048,
+        3203,
+        61,
+        0
+      ],
+      "top_center_density": [
+        1845,
+        5673,
+        27874,
+        23906,
+        702
+      ],
+      "top_right_density": [
+        29212,
+        15825,
+        14024,
+        939,
+        0
+      ],
+      "middle_left_density": [
+        25504,
+        14664,
+        14392,
+        5328,
+        112
+      ],
+      "middle_center_density": [
+        114,
+        490,
+        3037,
+        28277,
+        28082
+      ],
+      "middle_right_density": [
+        16712,
+        14149,
+        19012,
+        9483,
+        644
+      ],
+      "bottom_left_density": [
+        35507,
+        11447,
+        11790,
+        1256,
+        0
+      ],
+      "bottom_center_density": [
+        505,
+        1443,
+        21177,
+        34532,
+        2343
+      ],
+      "bottom_right_density": [
+        41185,
+        10694,
+        7484,
+        637,
+        0
+      ],
+      "bounding_box_aspect_ratio": [
+        4770,
+        5974,
+        17995,
+        13301,
+        17960
+      ],
+      "left_right_asymmetry": [
+        885,
+        7035,
+        20540,
+        21544,
+        9996
+      ],
+      "top_bottom_asymmetry": [
+        1504,
+        4416,
+        13810,
+        23964,
+        16306
+      ]
+    }
+  },
+  "source_sha256": {
+    "naive_bayes.py": "9c6a7d8e6f2a5e8693386acae4f1bbcb2b3b5448a3602601d0db7675bbd67ee5",
+    "bayes_net.py": "64ee9926bbebc8492a19ec378e64747852bfb6b12c324743ac5eacac1c66a20b",
+    "main.py": "a56453fc06bce08a97be2eef8391300762ad758c58cb626dfd36263c7b145dfb",
+    "mnist_loader.py": "7fa6739bf70ee8400a729a32a5339fe524bcf5e17d773f4168c367a691c6de50",
+    "requirements.txt": "a5b743f043931b9c946aa9a447166b78b228430d9d9a1fb1c91758b2755cfda3"
+  },
+  "naive_bayes_threshold": 128,
+  "features": [
+    "top_left_density",
+    "top_center_density",
+    "top_right_density",
+    "middle_left_density",
+    "middle_center_density",
+    "middle_right_density",
+    "bottom_left_density",
+    "bottom_center_density",
+    "bottom_right_density",
+    "bounding_box_aspect_ratio",
+    "left_right_asymmetry",
+    "top_bottom_asymmetry"
+  ],
+  "feature_parents_zero_based": [
+    null,
+    0,
+    1,
+    null,
+    3,
+    4,
+    null,
+    6,
+    7,
+    null,
+    9,
+    10
+  ],
+  "region_boundaries": [
+    0,
+    9,
+    19,
+    28
+  ],
+  "density_bin_edges": [
+    0.02,
+    0.08,
+    0.2,
+    0.4
+  ],
+  "aspect_bin_edges": [
+    0.45,
+    0.6,
+    0.75,
+    0.9
+  ],
+  "asymmetry_bin_edges": [
+    0.25,
+    0.4,
+    0.55,
+    0.7
+  ],
+  "structure_learning": false,
+  "test_set_parameter_selection": false,
+  "randomness": "None: fixed bins, fixed DAG, deterministic counts and argmax.",
+  "invocation": [
+    "outputs/assignment2/main.py",
+    "--data-dir",
+    "work/data/assignment2-data/mnist"
+  ]
+}

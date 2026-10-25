@@ -1,0 +1,133 @@
+{
+  "frozen_at_shanghai": "2026-10-19T19:13:27.130057+08:00",
+  "selected": {
+    "naive_bayes": {
+      "model": "naive_bayes",
+      "size": 24,
+      "keep_aspect": false,
+      "center_mass": true,
+      "blur": false,
+      "n_states": 8,
+      "alpha": 0.1,
+      "accuracy": 0.9104,
+      "macro_f1": 0.9105693145723169
+    },
+    "bayes_net": {
+      "model": "bayes_net",
+      "features": "skew_orientation_holes",
+      "binning": "uniform",
+      "alpha": 0.1,
+      "edges": [
+        [
+          0.2,
+          0.4,
+          0.6,
+          0.8
+        ],
+        [
+          0.2,
+          0.4,
+          0.6,
+          0.8
+        ],
+        [
+          0.2,
+          0.4,
+          0.6,
+          0.8
+        ],
+        [
+          0.2,
+          0.4,
+          0.6,
+          0.8
+        ],
+        [
+          0.2,
+          0.4,
+          0.6,
+          0.8
+        ],
+        [
+          0.2,
+          0.4,
+          0.6,
+          0.8
+        ],
+        [
+          0.2,
+          0.4,
+          0.6,
+          0.8
+        ],
+        [
+          0.2,
+          0.4,
+          0.6,
+          0.8
+        ],
+        [
+          0.2,
+          0.4,
+          0.6,
+          0.8
+        ],
+        [
+          0.45,
+          0.6,
+          0.75,
+          0.9
+        ],
+        [
+          0.001,
+          0.03,
+          0.1,
+          0.22
+        ],
+        [
+          0.001,
+          0.03,
+          0.1,
+          0.22
+        ]
+      ],
+      "accuracy": 0.9209,
+      "macro_f1": 0.9208485522035292
+    }
+  },
+  "selection_sha256": "fc670464b79f023207a9eaa4841b084034bde6cf31ba6bb63c76396df24839d9",
+  "core_source_sha256": {
+    "naive_bayes.py": "bdae03c2c17c43d4045d721ac0dc7e3b4eeec6ab3c92a48724542b34e470e2bd",
+    "bayes_net.py": "83b04c0426fd7b3de049717538d00bca228bd10615ebadb590dcb0e385686e4f"
+  },
+  "constructor_default_alpha": 1.0,
+  "main_explicit_alpha": 0.1,
+  "validation_checks": {
+    "naive_bayes": {
+      "accuracy": 0.9104,
+      "macro_f1": 0.9105693145723169
+    },
+    "bayes_net": {
+      "accuracy": 0.9209,
+      "macro_f1": 0.9208485522035292
+    }
+  },
+  "test_use": "Final evaluation after freeze; previous public test results are acknowledged as already seen",
+  "initial_report_sha256": "76e44351555726ef04c2f17b4ae8dda5d1b9982f22fae41560982fef56e8387a",
+  "previous_report_sha256": "67220e10e0928ab7bc627fc1dcbf40cdee38e247411b506f91675af0bdfbddc4",
+  "automatic_structure_learning": false,
+  "manual_feature_parents_zero_based": [
+    null,
+    0,
+    1,
+    null,
+    3,
+    4,
+    null,
+    6,
+    7,
+    null,
+    9,
+    10
+  ]
+}

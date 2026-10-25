@@ -1,0 +1,33 @@
+{
+  "seed": 20261019,
+  "training_samples": 50000,
+  "validation_samples": 10000,
+  "goal": "Attempt >=90% for each model while retaining the required model families and BN limits",
+  "selection": "Validation macro F1, accuracy secondary; only original training split may be read during exploration",
+  "forbidden": [
+    "test-based candidate ranking",
+    "pretrained models",
+    "discriminative classifiers hidden inside features",
+    "model ensembles replacing the required models",
+    "automatic DAG structure learning",
+    "BN more than 12 features or more than 5 states"
+  ],
+  "nb_families": [
+    "deskew plus box alignment / resampling",
+    "fixed grayscale quantization",
+    "Bernoulli/categorical/fractional multinomial probability variants"
+  ],
+  "bn_families": [
+    "normalized regional gray densities plus topology",
+    "fixed spatial gradient-orientation summaries",
+    "hand-interpretable moment / stroke / topology summaries"
+  ],
+  "graph": "Fixed four length-three feature chains; all nodes additionally have Y as a parent, no learned or searched edges",
+  "preprocessing": [
+    "with and without deterministic moment deskew",
+    "box cropping",
+    "nearest / bilinear sampling",
+    "region normalization"
+  ],
+  "reporting": "Preserve the preceding report and all numerical results. Publish achieved accuracy truthfully, even if 90% cannot be reached."
+}
